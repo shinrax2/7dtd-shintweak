@@ -1,0 +1,43 @@
+<configs>
+	<!-- add numbers to toolbelt slots -->
+    <insertAfter xpath="/windows/window[@name='windowToolbelt']/rect/sprite[4]">
+	
+        <grid depth="6" rows="1" cols="10" pos="6,-52" cell_width="75" cell_height="75" repeat_content="false">
+            <label depth="50" width="12" height="22" text="1" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="2" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="3" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="4" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="5" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="6" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="7" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="8" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="9" font_size="24" effect="outline" color="[black]" justify="center" />
+            <label depth="50" width="12" height="22" text="0" font_size="24" effect="outline" color="[black]" justify="center" />
+		</grid>
+		
+    </insertAfter>
+	
+	<!-- <insertAfter xpath="/windows/window[@name='windowToolbelt']/rect/sprite[4]">
+	
+		<rect pos="-35,0" width="32" height="32">
+			<sprite depth="4" name="windowIcon" width="32" height="32" pos="-35,0" sprite="ui_game_symbol_trophy" color="[white]" />
+			<label depth="6" name="levelNumber" pos="2,-2" width="28" height="28" text="{cvar($LastPlayerLevel)}" controller="ToolbeltWindow" color="[white]" justify="center" effect="outline" font_size="20" />
+		</rect>
+
+		 <rect pos="-35,-42" width="32" height="32">
+			<sprite depth="4" name="windowIcon" width="32" height="32" pos="-35,0" sprite="ui_game_symbol_death" color="[white]" />
+			<label depth="6" name="deathNumber" pos="2,-4" width="28" height="28" text="" controller="ToolbeltWindow" color="[white]" justify="center" effect="outline" font_size="20" />
+		</rect>
+
+		<rect pos="765,0" width="32" height="32">
+			<sprite depth="4" name="windowIcon" width="32" height="32" pos="35,0" sprite="ui_game_symbol_zombie" color="[white]" />
+			<label depth="6" name="ZkillNumber" pos="2,-4" width="28" height="28" text="{playerzombiekills}" controller="ToolbeltWindow" color="[white]" justify="center" effect="outline" font_size="20" />
+		</rect>
+
+		<rect pos="765,-42" width="32" height="32">
+			<sprite depth="4" name="windowIcon" width="32" height="32" pos="35,0" sprite="ui_game_symbol_knife" color="[white]" />
+			<label depth="6" name="PkillNumber" pos="2,-4" width="28" height="28" text="{playerpvpkills}" controller="ToolbeltWindow" color="[white]" justify="center" effect="outline" font_size="20" /> 
+		</rect>
+	
+	</insertAfter> -->
+</configs>

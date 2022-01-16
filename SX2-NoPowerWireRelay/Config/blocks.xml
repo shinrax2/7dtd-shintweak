@@ -1,0 +1,3 @@
+<configs>
+	<set xpath="/blocks/block[@name='electricwirerelay']/property[@name='RequiredPower']/@value">0</set> <!-- default: 1 -->
+</configs>
